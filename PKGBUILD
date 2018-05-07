@@ -44,7 +44,7 @@ package() {
   done
 
   install -m 0644 -D ${srcdir}/spphys.bst ${pkgdir}/usr/share/texmf-dist/bibtex/bst/springer/spphys.bst
-  install -m 0644 -D ${srcdir}/splncs04.bst ${pkgdir}/usr/share/texmf-dist/bibtex/bst/springer/splncs03.bst
+  install -m 0644 -D ${srcdir}/splncs04.bst ${pkgdir}/usr/share/texmf-dist/bibtex/bst/springer/splncs04.bst
   find ${pkgdir}/usr/share/texmf-dist/tex/latex/ -name \*.bst -exec mv {} ${pkgdir}/usr/share/texmf-dist/bibtex/bst/springer/ \;
   # XXX: BSTs have disappeared from the latest version of svmono... Go figure...
   #mv ${pkgdir}/usr/share/texmf-dist/tex/latex/svmono/*.bst \
